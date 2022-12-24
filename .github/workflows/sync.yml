@@ -18,9 +18,9 @@ jobs:
       id: sync
       uses: egym/Fork-Sync-With-Upstream-action@main
       with:
-        target_sync_branch: main
+        target_sync_branch: master
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-        upstream_sync_branch: main
+        upstream_sync_branch: master
         upstream_sync_repo: securego/gosec
 
     - name: New commits found
