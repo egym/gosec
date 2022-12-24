@@ -16,7 +16,7 @@ jobs:
 
     - name: Sync upstream changes
       id: sync
-      uses: egym/Fork-Sync-With-Upstream-action@latest
+      uses: egym/Fork-Sync-With-Upstream-action@master
       with:
         target_sync_branch: main
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
